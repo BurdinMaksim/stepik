@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+    <FIELDSET>
+      <legend>Общая информация</legend>
+      <div class="general_information">
+          <label for="firstname">Фамилия</label>
+          <input type="text" name="general_information" id="firstname" placeholder="Иванов"><br>
+
+          <label for="lastname">Имя</label>
+          <input type="text" name="general_information" id="lastname" placeholder="Иван"><br>
+
+          <label for="patronymic">Отчество</label>
+          <input type="text" name="general_information" id="patronymic" placeholder="Иванович"><br>
+
+          <label for="email">email</label>
+          <input type="email" name="general_information" id="email" placeholder="mail@mail.ru"><br>
+      </div>
+    </FIELDSET>
+    <br>
+    <FIELDSET>
+      <legend>Пол</legend>
+      <div class="sex">
+        <input type="radio" name="sex" id="man">
+        <label for="man">М</label>
+
+        <input type="radio" name="sex" id="woman">
+        <label for="woman">Ж</label>
+      </div>
+    </FIELDSET>
+    <br>
+    <FIELDSET>
+      <legend>Хобби</legend>
+      <div class="hobby">
+        <input type="checkbox" id="drawing" name="hobby">
+        <label for="drawing" >Рисование</label>
+
+        <input type="checkbox" id="reading" name="hobby">
+        <label for="reading">Чтение</label>
+
+        <input type="checkbox" id="knitting" name="hobby">
+        <label for="knitting">Вязание</label>
+
+        <input type="checkbox" id="cooking" name="hobby">
+        <label for="cooking">Кулинария</label>
+      </div>
+    </FIELDSET>
+    <br>
+    <input type="submit">
+    <input type="reset" value=" Очистить">
+</form>
+</body>
+</html>
